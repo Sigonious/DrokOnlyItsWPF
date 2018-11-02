@@ -1,0 +1,201 @@
+﻿<Window x:Class="BlackjackInARealLanguage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BlackjackInARealLanguage"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280" WindowStartupLocation="CenterScreen"
+        Name="TheWindow">
+    <Window.Resources>
+        <BitmapImage x:Key="cardback" UriSource="Resources/smallback.png" />
+        <BitmapImage x:Key="spadesA" UriSource="Resources/sa.png" />
+        <BitmapImage x:Key="spades2" UriSource="Resources/s2.png" />
+        <BitmapImage x:Key="spades3" UriSource="Resources/s3.png" />
+        <BitmapImage x:Key="spades4" UriSource="Resources/s4.png" />
+        <BitmapImage x:Key="spades5" UriSource="Resources/s5.png" />
+        <BitmapImage x:Key="spades6" UriSource="Resources/s6.png" />
+        <BitmapImage x:Key="spades7" UriSource="Resources/s7.png" />
+        <BitmapImage x:Key="spades8" UriSource="Resources/s8.png" />
+        <BitmapImage x:Key="spades9" UriSource="Resources/s9.png" />
+        <BitmapImage x:Key="spades10" UriSource="Resources/s10.png" />
+        <BitmapImage x:Key="spadesJ" UriSource="Resources/sj.png" />
+        <BitmapImage x:Key="spadesQ" UriSource="Resources/sq.png" />
+        <BitmapImage x:Key="spadesK" UriSource="Resources/sk.png" />
+        <BitmapImage x:Key="diamondsA" UriSource="Resources/dA.png" />
+        <BitmapImage x:Key="diamonds2" UriSource="Resources/d2.png" />
+        <BitmapImage x:Key="diamonds3" UriSource="Resources/d3.png" />
+        <BitmapImage x:Key="diamonds4" UriSource="Resources/d4.png" />
+        <BitmapImage x:Key="diamonds5" UriSource="Resources/d5.png" />
+        <BitmapImage x:Key="diamonds6" UriSource="Resources/d6.png" />
+        <BitmapImage x:Key="diamonds7" UriSource="Resources/d7.png" />
+        <BitmapImage x:Key="diamonds8" UriSource="Resources/d8.png" />
+        <BitmapImage x:Key="diamonds9" UriSource="Resources/d9.png" />
+        <BitmapImage x:Key="diamonds10" UriSource="Resources/d10.png" />
+        <BitmapImage x:Key="diamondsJ" UriSource="Resources/dj.png" />
+        <BitmapImage x:Key="diamondsQ" UriSource="Resources/dq.png" />
+        <BitmapImage x:Key="diamondsK" UriSource="Resources/dk.png" />
+        <BitmapImage x:Key="clubsA" UriSource="Resources/cA.png" />
+        <BitmapImage x:Key="clubs2" UriSource="Resources/c2.png" />
+        <BitmapImage x:Key="clubs3" UriSource="Resources/c3.png" />
+        <BitmapImage x:Key="clubs4" UriSource="Resources/c4.png" />
+        <BitmapImage x:Key="clubs5" UriSource="Resources/c5.png" />
+        <BitmapImage x:Key="clubs6" UriSource="Resources/c6.png" />
+        <BitmapImage x:Key="clubs7" UriSource="Resources/c7.png" />
+        <BitmapImage x:Key="clubs8" UriSource="Resources/c8.png" />
+        <BitmapImage x:Key="clubs9" UriSource="Resources/c9.png" />
+        <BitmapImage x:Key="clubs10" UriSource="Resources/c10.png" />
+        <BitmapImage x:Key="clubsJ" UriSource="Resources/cj.png" />
+        <BitmapImage x:Key="clubsQ" UriSource="Resources/cq.png" />
+        <BitmapImage x:Key="clubsK" UriSource="Resources/ck.png" />
+        <BitmapImage x:Key="heartsA" UriSource="Resources/hA.png" />
+        <BitmapImage x:Key="hearts2" UriSource="Resources/h2.png" />
+        <BitmapImage x:Key="hearts3" UriSource="Resources/h3.png" />
+        <BitmapImage x:Key="hearts4" UriSource="Resources/h4.png" />
+        <BitmapImage x:Key="hearts5" UriSource="Resources/h5.png" />
+        <BitmapImage x:Key="hearts6" UriSource="Resources/h6.png" />
+        <BitmapImage x:Key="hearts7" UriSource="Resources/h7.png" />
+        <BitmapImage x:Key="hearts8" UriSource="Resources/h8.png" />
+        <BitmapImage x:Key="hearts9" UriSource="Resources/h9.png" />
+        <BitmapImage x:Key="hearts10" UriSource="Resourcesh10.png" />
+        <BitmapImage x:Key="heartsJ" UriSource="Resources/hj.png" />
+        <BitmapImage x:Key="heartsQ" UriSource="Resources/hq.png" />
+        <BitmapImage x:Key="heartsK" UriSource="Resources/hk.png" />
+        <BitmapImage x:Key="cardblank" UriSource="Resources/blank.png" />
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="89*"/>
+            <ColumnDefinition Width="113*"/>
+            <ColumnDefinition Width="113*"/>
+            <ColumnDefinition Width="149*"/>
+            <ColumnDefinition Width="391*"/>
+            <ColumnDefinition Width="135*"/>
+            <ColumnDefinition Width="135*"/>
+            <ColumnDefinition Width="136*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="14*"/>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="33*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="31*"/>
+            <RowDefinition Height="31*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="23*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="135*"/>
+            <RowDefinition Height="138*"/>
+            <RowDefinition Height="75*"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="1" Grid.Column="1" Click="StartGameButtonPress">
+            Start Game
+        </Button>
+        <Button Grid.Row="1" Grid.Column="2" Click="HitButtonPress">
+            Hit
+        </Button>
+        <Button Grid.Row="2" Grid.Column="4" Click="SetBetButtonPress">
+            Set Bet
+        </Button>
+        <Button Grid.Row="3" Grid.Column="2" Click="StayButtonPress">
+            Stay
+        </Button>
+
+        <Viewbox Grid.Row="5" Grid.Column="5">
+            <TextBlock Name="MiddleLabel" Text="BLACKJACK"/>
+        </Viewbox>
+
+        <Viewbox  Grid.Row="1" Grid.Column="3">
+            <Label Content="Bet Amount"/>
+        </Viewbox>
+        
+        <TextBox Grid.Row="2" Grid.Column="3" Name="BetAmount">
+            
+        </TextBox>
+
+        <Viewbox Grid.Row="5" Grid.Column="2">
+            <TextBlock Text="Player Money"/>
+        </Viewbox>
+
+        <Viewbox Grid.Row="6" Grid.Column="2">
+            <TextBlock Name="PlayerMoneyLabel" Text="0"/>
+        </Viewbox>
+
+        <Viewbox Grid.Row="7" Grid.Column="2">
+            <TextBlock Text="Card Value"/>
+        </Viewbox>
+
+        <Viewbox Grid.Row="8" Grid.Column="2">
+            <TextBlock Name="PlayerCardValueLabel" Text="0"/>
+        </Viewbox>
+
+        <Viewbox Grid.Row="9" Grid.Column="2">
+            <TextBlock Text="Player"/>
+        </Viewbox>
+
+        <Viewbox Grid.Row="5" Grid.Column="6">
+            <TextBlock Text="Total in Bets"/>
+        </Viewbox>
+
+        <Viewbox Grid.Row="6" Grid.Column="6">
+            <TextBlock Name="TotalBetsLabel" Text="0"/>
+        </Viewbox>
+
+        <Viewbox Grid.Row="7" Grid.Column="6">
+            <TextBlock Text="Card Value"/>
+        </Viewbox>
+
+        <Viewbox Grid.Row="8" Grid.Column="6">
+            <TextBlock Name="DealerCardValueLabel" Text="0"/>
+        </Viewbox>
+        
+        <Viewbox Grid.Row="9" Grid.Column="6">
+            <TextBlock Text="Dealer"/>
+        </Viewbox>
+
+        <Rectangle Grid.Row="11" Grid.Column="2" Name="PlayerCard1">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="{StaticResource cardback}"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="11" Grid.Column="3" Name="PlayerCard2">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="{StaticResource cardback}"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="12" Grid.Column="2" Name="PlayerCard3">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="{StaticResource cardback}"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="12" Grid.Column="3" Name="PlayerCard4">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="{StaticResource cardback}"/>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Grid.Row="11" Grid.Column="6" Name="DealerCard1">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="{StaticResource cardback}"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="11" Grid.Column="7" Name="DealerCard2">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="{StaticResource cardback}"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="12" Grid.Column="6" Name="DealerCard3">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="{StaticResource cardback}"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="12" Grid.Column="7" Name="DealerCard4">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="{StaticResource cardback}"/>
+            </Rectangle.Fill>
+        </Rectangle>
+    </Grid>
+</Window>

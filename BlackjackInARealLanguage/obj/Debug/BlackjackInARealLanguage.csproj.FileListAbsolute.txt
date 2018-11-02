@@ -1,0 +1,14 @@
+C:\Users\Adam\source\repos\BlackjackInARealLanguage\BlackjackInARealLanguage\obj\Debug\BlackjackInARealLanguage.csprojAssemblyReference.cache
+C:\Users\Adam\source\repos\BlackjackInARealLanguage\BlackjackInARealLanguage\obj\Debug\MainWindow.g.cs
+C:\Users\Adam\source\repos\BlackjackInARealLanguage\BlackjackInARealLanguage\obj\Debug\App.g.cs
+C:\Users\Adam\source\repos\BlackjackInARealLanguage\BlackjackInARealLanguage\obj\Debug\BlackjackInARealLanguage_MarkupCompile.cache
+C:\Users\Adam\source\repos\BlackjackInARealLanguage\BlackjackInARealLanguage\obj\Debug\BlackjackInARealLanguage_MarkupCompile.lref
+C:\Users\Adam\source\repos\BlackjackInARealLanguage\BlackjackInARealLanguage\bin\Debug\BlackjackInARealLanguage.exe
+C:\Users\Adam\source\repos\BlackjackInARealLanguage\BlackjackInARealLanguage\bin\Debug\BlackjackInARealLanguage.pdb
+C:\Users\Adam\source\repos\BlackjackInARealLanguage\BlackjackInARealLanguage\obj\Debug\MainWindow.baml
+C:\Users\Adam\source\repos\BlackjackInARealLanguage\BlackjackInARealLanguage\obj\Debug\BlackjackInARealLanguage.g.resources
+C:\Users\Adam\source\repos\BlackjackInARealLanguage\BlackjackInARealLanguage\obj\Debug\BlackjackInARealLanguage.Properties.Resources.resources
+C:\Users\Adam\source\repos\BlackjackInARealLanguage\BlackjackInARealLanguage\obj\Debug\BlackjackInARealLanguage.csproj.GenerateResource.cache
+C:\Users\Adam\source\repos\BlackjackInARealLanguage\BlackjackInARealLanguage\obj\Debug\BlackjackInARealLanguage.csproj.CoreCompileInputs.cache
+C:\Users\Adam\source\repos\BlackjackInARealLanguage\BlackjackInARealLanguage\obj\Debug\BlackjackInARealLanguage.exe
+C:\Users\Adam\source\repos\BlackjackInARealLanguage\BlackjackInARealLanguage\obj\Debug\BlackjackInARealLanguage.pdb
